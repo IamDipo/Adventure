@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Adventure</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="logo">ADVENTURE</h1>
+      <ul class="nav-links">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Tours</a></li>
+        <li><a href="#">Explore</a></li>
+        <li><a href="#">About</a></li>
+        <li class="btn"><a href="#">Contact Us</a></li>
+      </ul>
+      <img src="./image/menu-btn.png" alt="" class="menu-btn" />
+    </nav>
+    <header>
+      <div class="header-content">
+        <h2>Explore The Colourful World</h2>
+        <div class="line"></div>
+        <h1>A WONDERFUL GIFT</h1>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+    </header>
+    <section class="events">
+      <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="./image/img1.png" alt="" />
+          <h4>Everest Camp Trek</h4>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dignissimos rerum omnis ullam, qui dolor obcaecati?
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="column">
+          <img src="./image/img2.png" alt="" />
+          <h4>Walking Holidays</h4>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dignissimos rerum omnis ullam, qui dolor obcaecati?
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <section class="explore">
+      <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+          architecto alias repellat numquam consequatur ipsum voluptatum
+          excepturi facilis, voluptate illo ratione, necessitatibus ipsa facere
+          itaque.
+        </p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+    </section>
+    <section class="tours">
+      <div class="row">
+        <div class="column content-col">
+          <h1>UPCOMING TOURS & DESTINATION</h1>
+          <div class="line"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            accusamus quos atque mollitia ex voluptas, nesciunt vel quod
+            officiis vero unde fugiat, id, rerum molestias qui. At deserunt non
+            minus!
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="column images-col">
+          <div class="images">
+            <img src="./image/img3.png" alt="" />
+            <img src="./image/img4.png" alt="" />
+            <img src="./image/img5.png" alt="" />
+            <img src="./image/img6.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <p>
+        123 Fifth Avenue, NY 10160, New York, USA | Phone: 09013673813 | Email:
+        dipo.olami23@gamil.com
+      </p>
+      <p>&copy; 2024 Outdoor Adventures</p>
+    </section>
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navlinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
